@@ -16,15 +16,21 @@
     font-style: normal; 
     font-weight: 800; 
 }
-.bodegabay {
+.cards__image 
+{
+    width: 111px;
+    height: 38px;
+    top: 18px;
+    left: 16px;
+    padding: 0px, 0px, 0px, 0px;
+}
+
+body {
     font-family: 'Open Sans', sans-serif;
     min-width: 768px;
     min-height: 2976px;
     top: -2136px;
     left: -384px;
-    /* border: 10px solid #F16D7F; */
-
-    /* background-color: #FFF; */
 }
 span {
     text-align: center;
@@ -322,12 +328,12 @@ span {
 
 @media (min-width: 320px) and (min-height: 767px)
 {
-    .bodegabay
+    body
     {
-        width: 320px;
-        height: 767px;
+        min-width: 375px;
+        max-height: 5367px;
         top: -3340px;
-        left: -187px
+        left: -187px;
         
     }
 }
