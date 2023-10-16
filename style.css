@@ -336,5 +336,20 @@ span {
         left: -187px;
         
     }
+    .services {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 30px;
+        margin-top: 132px;
+        text-align: center;
+    }
+    .features {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        margin-top: 132px;
+        text-align: center;
+    }
 }
 
